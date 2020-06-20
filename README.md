@@ -124,6 +124,8 @@ Misc:
 * Default donation 5% (5 minutes in 100 minutes) can be reduced to 1% via option `donate-level` or disabled in source code.
 * XMR: `48edfHu7V9Z84YzzMa6fUueoELZ9ZRXq9VetWzYGzKt52XU5xvqgzYnDK9URnRoJMk1j8nLwEVsaSWJ4fhdUyZijBGUicoD`
 * BTC: `1P7ujsXeX7GxQwHNnJsRMgAdNkFZmNVqJT`
+* Loki: `LAQ1eS3wDC8EBvGpQzi1to9gBZu92jRJL2WCPBST5wXUhmDrQqRJfbYDGUKA1JD7MMXuZvNF8uroNhkcrcxxZ9vY8DbDEfU`
+* Monero: `441BCP9coqA2HhpZosq49R1QZNcoFQ2jrRPETYuDVCS1Wcpsgi9jKzVUrAKTs6xHyWUu113fHCYtFEKSGGaU72awRM6SL7t`
 
 ## Contacts
 * support@xmrig.com
