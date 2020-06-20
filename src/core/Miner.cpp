@@ -546,6 +546,21 @@ void xmrig::Miner::onRequest(IApiRequest &request)
 
             d_ptr->getBackends(request.reply(), request.doc());
         }
+        else if (request.url() == "/2/pause") {
+            request.accept();
+            
+            setEnabled(false);
+        }
+        else if (request.url() == "/2/resume") {
+            request.accept();
+            
+            setEnabled(true);
+        }
+        else if (request.url() == "/2/stop") {
+            request.accept();
+            
+            stop();
+        }
     }
     else if (request.type() == IApiRequest::REQ_JSON_RPC) {
         if (request.rpcMethod() == "pause") {
